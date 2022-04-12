@@ -10,6 +10,8 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/piccuss/wsc/common"
+
+	_ "github.com/piccuss/wsc"
 )
 
 var addr = flag.String("addr", "localhost:8080", "websocket service address")
